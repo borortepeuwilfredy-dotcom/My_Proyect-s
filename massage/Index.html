@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños!</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+    <div class="envelope-wrapper" id="envelope">
+        <div class="envelope-flap"></div>
+
+        <div class="wax-seal" id="waxSeal" onclick="clickSeal(event)">
+            <svg class="heart-icon" id="sealHeart" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+            <svg class="crack-lines" viewBox="0 0 50 50">
+                <path id="crack1" d="M25,5 L25,18 L20,23" stroke="#4a0a0f" stroke-width="2.5" fill="none" stroke-linecap="round" style="opacity:0; transition: opacity 0.2s;"/>
+                <path id="crack2" d="M45,25 L32,25 L28,28" stroke="#4a0a0f" stroke-width="2.5" fill="none" stroke-linecap="round" style="opacity:0; transition: opacity 0.2s;"/>
+                <path id="crack3" d="M25,45 L25,32 L30,26" stroke="#4a0a0f" stroke-width="2.5" fill="none" stroke-linecap="round" style="opacity:0; transition: opacity 0.2s;"/>
+                <path id="crack4" d="M5,25 L18,25 L22,20" stroke="#4a0a0f" stroke-width="2.5" fill="none" stroke-linecap="round" style="opacity:0; transition: opacity 0.2s;"/>
+            </svg>
+        </div>
+
+        <div class="letter">
+            <div class="bouquet-container">
+                <svg viewBox="0 0 100 100" width="100%" height="100%">
+                    <path d="M45,60 L35,90 M50,60 L50,92 M55,60 L65,90" stroke="#4b6584" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M38,75 Q50,70 62,75 Q50,80 38,75" fill="#ff7675"/>
+                    <circle cx="35" cy="45" r="14" fill="#ff7675"/>
+                    <circle cx="35" cy="45" r="8" fill="#d63031"/>
+                    <circle cx="50" cy="35" r="16" fill="#fd79a8"/>
+                    <circle cx="50" cy="35" r="9" fill="#e84393"/>
+                    <circle cx="65" cy="48" r="12" fill="#fbc531"/>
+                    <circle cx="65" cy="48" r="6" fill="#e1b12c"/>
+                    <path d="M25,40 Q15,35 23,28 Q30,35 25,40" fill="#26de81"/>
+                    <path d="M75,45 Q85,40 77,33 Q70,40 75,45" fill="#26de81"/>
+                </svg>
+            </div>
+            <h1>¡Feliz Cumpleaños!</h1>
+            <p>En este día tan especial, quería enviarte un detalle diferente...</p>
+            <p style="margin-top: 8px;">Eres una persona increíble que alegra la vida de quienes te rodean. Que hoy esté lleno de sonrisas, momentos mágicos y cosas hermosas.</p>
+            <p style="margin-top: 15px; font-weight: bold; color: #b31e2b;">¡Que pases un día espectacular! ✨</p>
+        </div>
+    </div>
+</body>
+</html>
